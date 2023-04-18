@@ -2,6 +2,14 @@ import json
 import os
 import xml.etree.ElementTree as ET
 
+#
+def getDirectory():
+    current_directory = os.getcwd()
+    if current_directory.__contains__("Code"):
+        current_directory = os.path.dirname(current_directory)
+    current_directory = os.path.join(current_directory, "")
+    return current_directory
+
 #Zählt die Einträge einer JSONL Datei
 def countEntriesJSONL(input_File):
     # Zähler für Einträge initialisieren
@@ -18,17 +26,17 @@ def countEntriesJSONL(input_File):
 
 
 #Schreibt gewünschte Einträge ("doc_id" und "text") von einer JSONL in eine andere
-def getEntriesToJSONL(input_File, outputFilePath, outputFileName):
+def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
     if checkForFile(outputFilePath,outputFileName) == False:
         with open(outputFilePath, 'w') as f:
             try:
                 f.write(json.dumps(""))
                 print(f"Die Datei {outputFileName} wurde in Folgendem Pfad erstellt: {outputFilePath}")
             except Exception as e:
-                print(f"Fehler beim Erstellen der Datei {file_name}: {e}")
+                print(f"Fehler beim Erstellen der Datei {outputFileName}: {e}")
 
     # Öffne die Eingabe-JSONL-Datei und die Ausgabe-JSONL-Datei
-    with open(input_File, "r") as input_file, open(outputFilePath, "w") as output_file:
+    with open(inputFile, "r") as input_file, open(outputFilePath, "w") as output_file:
         # Iteriere über jede Zeile der Eingabe-JSONL-Datei
         for line in input_file:
             # Lade die JSON-Daten aus der Zeile
