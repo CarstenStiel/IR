@@ -1,7 +1,6 @@
 import json
 import os
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
 
 #Zählt die Einträge einer JSONL Datei
 def countEntriesJSONL(input_File):
