@@ -1,0 +1,21 @@
+Index: Pipfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pipfile b/Pipfile
+new file mode 100644
+--- /dev/null	(date 1682355109240)
++++ b/Pipfile	(date 1682355109240)
+@@ -0,0 +1,11 @@
++[[source]]
++url = "https://pypi.org/simple"
++verify_ssl = true
++name = "pypi"
++
++[packages]
++
++[dev-packages]
++
++[requires]
++python_version = "3.11"

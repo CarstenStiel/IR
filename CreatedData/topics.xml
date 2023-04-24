@@ -1,9 +1,9 @@
 <topics>
-  <topic number="">
-    <title>  </title>
-    <description>  </description>
-    <narrative>  </narrative>
-  </topic>
+<topic nummer="1">
+  <title>machine learnign for more relevant results</title>
+  <description>Which papers describe methods to find more relevant results using machine learning?</description>
+  <narrative>Relevant papers describe one or more methods to find more relevant results using machine learning. Papers about just machine learning in IR in general or papers just about finding more relevant results are not relevant.</narrative>
+</topic>
   <topic number="">
     <title>  </title>
     <description>  </description>
