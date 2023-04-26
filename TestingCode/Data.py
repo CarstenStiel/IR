@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 #
 def getDirectory():
     current_directory = os.getcwd()
-    if current_directory.__contains__("Code"):
+    if current_directory.__contains__("TestingCode"):
         current_directory = os.path.dirname(current_directory)
     current_directory = os.path.join(current_directory, "")
     return current_directory

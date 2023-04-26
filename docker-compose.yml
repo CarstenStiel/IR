@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  notebook:
+    container_name: whatsUUUUP
+    build:
+      context: ./notebook
+      dockerfile: Dockerfile
+    image: carstenstiel/notebook
+    ports:
+      - "8888:8888"
+    networks:
+      - network_1
+
+networks:
+    network_1:

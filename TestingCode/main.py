@@ -12,4 +12,3 @@ if __name__ == '__main__':
 
     Data.getEntriesToJSONL(inputFilePath, outputFilePath, outputFileName)
     print(f"Anzahl Entitäten in {outputFileName}: ", Data.countEntriesJSONL(outputFilePath), "\n")
-    Data.setXML(xmlFilePath, xmlFileName)

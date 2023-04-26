@@ -5,11 +5,11 @@
 ### Project Structure
 
 1. ***Jupyter Notebook:***
-    - The Jupyter Notebook is located here in the parent directory under the name [DNC_Limited_Data.ipynb](DNC_Limited_Data.ipynb)
+    - The Jupyter Notebook is located here in the parent directory under the name [DNC_Limited_Data.ipynb](JupyterNotebook/DNC_Limited_Data.ipynb)
 2. ***CreatedData:***
    - The following files are located here:
-     * [ir-anthology-final](CreatedData/ir-anthology-final.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
-     * [topics](CreatedData/topics.xml): Topics in the XML format for Tira.
+     * [ir-anthology-final](JupyterNotebook/CreatedData/ir-anthology-final.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
+     * [topics](JupyterNotebook/CreatedData/topics.xml): Topics in the XML format for Tira.
 3. ***Code:***
    - The code used for testing in the respective IDE before being used in the Jupyter Notebook is located here.
 
@@ -41,7 +41,7 @@ Navigate in the terminal to the parent directory of the project and enter the fo
 ```
 jupyter notebook
 ```
-Select the [DNC_Limited_Data.ipynb](DNC_Limited_Data.ipynb) file in the Jupyter Notebook interface to start the notebook.
+Select the [DNC_Limited_Data.ipynb](JupyterNotebook/DNC_Limited_Data.ipynb) file in the Jupyter Notebook interface to start the notebook.
 
 
 ## Deutsche Version
@@ -49,11 +49,11 @@ Select the [DNC_Limited_Data.ipynb](DNC_Limited_Data.ipynb) file in the Jupyter 
 ### Aufbau des Projektes
 
 1. ***Jupyter Notebook:***
-    - Das Jupyter Notebook befindet hier im übergeordnetem Verzeichnis unter dem Namen [DNC_Limited_Data.ipynb](DNC_Limited_Data.ipynb)
+    - Das Jupyter Notebook befindet hier im übergeordnetem Verzeichnis unter dem Namen [DNC_Limited_Data.ipynb](JupyterNotebook/DNC_Limited_Data.ipynb)
 2. ***CreatedData:***
    - Hier befinden sich folgende Datein:
-     * [ir-anthology-final](CreatedData/ir-anthology-final.jsonl): Erstellte Dokumentensammlung im Format "doc_id" und "text" im JSONL-Format
-     * [topics](CreatedData/topics.xml): Topics im XML-Format für Tira
+     * [ir-anthology-final](JupyterNotebook/CreatedData/ir-anthology-final.jsonl): Erstellte Dokumentensammlung im Format "doc_id" und "text" im JSONL-Format
+     * [topics](JupyterNotebook/CreatedData/topics.xml): Topics im XML-Format für Tira
 3. ***Code:***
    - Hier befindet sich der Code, der zum Testen in der jeweiligen IDE genutzt wird, bevor er im Jupyter Notebook verwendet wird.
 
@@ -85,4 +85,4 @@ Navigiere im Terminal zum übergeordnetem Verzeichnis des Projektes und gebe fol
 ```
 jupyter notebook
 ```
-Wähle die [DNC_Limited_Data.ipynb](DNC_Limited_Data.ipynb) Datei in der Jupyter Notebook-Oberfläche um das Notebook zu starten
+Wähle die [DNC_Limited_Data.ipynb](JupyterNotebook/DNC_Limited_Data.ipynb) Datei in der Jupyter Notebook-Oberfläche um das Notebook zu starten
