@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Added register pangram.py">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated read.me and deleted Files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/DNC_Limited_Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/DNC_Limited_Notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/data/ir-anthology-final.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/data/ir-anthology-final.jsonl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/data/topics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/data/topics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/iranthology-DNC_Limited.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/iranthology-DNC_Limited.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/pangram-dataset-tira/documents.jsonl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/pangram-dataset-tira/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/pangram-dataset-tira/queries.jsonl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/pangram-dataset-tira/queries.xml" beforeDir="false" />
     </list>
     <list id="284ab039-4fc7-4066-bfba-f18c5bf31a08" name="Changes by Famil" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,18 +74,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/timot/Desktop/InRet"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/timot/Desktop/InRet&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\timot\Desktop\InRet\notebook\data" />
@@ -223,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682607013265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated read.me and deleted Files">
+      <created>1682615369929</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682615369929</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +256,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added english version to ReadMe" />
     <MESSAGE value="Added register pangram.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added register pangram.py" />
+    <MESSAGE value="Updated read.me and deleted Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated read.me and deleted Files" />
   </component>
 </project>
