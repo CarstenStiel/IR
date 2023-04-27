@@ -42,7 +42,6 @@ def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
     with open(inputFile, "r") as input_file, open(outputFilePath, "w") as output_file:
         # Iteriere über jede Zeile der Eingabe-JSONL-Datei
         for line in input_file:
-            if count < 5:
                 # Lade die JSON-Daten aus der Zeile
                 lineJSON = json.loads(line)
                 array = []
@@ -55,7 +54,6 @@ def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
 
                 # Schreibe die extrahierten Daten als JSON in die Ausgabe-JSONL-Datei
                 output_file.write(json.dumps(filtered_data) + "\n")
-                count += 1
 
 
 def setXML(file_path, file_name):
