@@ -1,17 +1,5 @@
-# Basisimage
-FROM webis/tira-ir-starter-pyterrier:0.0.1-base
+FROM webis/tira-ir-datasets-starter:0.0.47
 
-# Setzen der Arbeitsverzeichnis
-WORKDIR /app
+COPY pangrams.py /usr/lib/python3.8/site-packages/ir_datasets/datasets_in_progress/
 
-COPY ./ ./
-
-# Aktualisieren von pip und Installation von Jupyter Notebook
-RUN apt-get update && apt-get install -y python3-pip \
-    && pip3 install jupyter pyterrier \
-    && pip3 install tira
-
-EXPOSE 8888
-
-# Starten von Jupyter Notebook
-CMD ["jupyter", "notebook", "--allow-root", "--ip", "0.0.0.0"]
+ENTRYPOINT [ "/irds_cli.sh" ]

@@ -5,9 +5,10 @@ import xml.etree.ElementTree as ET
 #
 def getDirectory():
     current_directory = os.getcwd()
+    current_directory = os.path.dirname(current_directory)
     if current_directory.__contains__("TestingCode"):
         current_directory = os.path.dirname(current_directory)
-    current_directory = os.path.join(current_directory, "")
+    current_directory = os.path.join(current_directory, "notebook\\")
     return current_directory
 
 #Zählt die Einträge einer JSONL Datei
@@ -27,6 +28,8 @@ def countEntriesJSONL(input_File):
 
 #Schreibt gewünschte Einträge ("doc_id" und "text") von einer JSONL in eine andere
 def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
+    count = 0
+
     if checkForFile(outputFilePath,outputFileName) == False:
         with open(outputFilePath, 'w') as f:
             try:
@@ -39,18 +42,20 @@ def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
     with open(inputFile, "r") as input_file, open(outputFilePath, "w") as output_file:
         # Iteriere über jede Zeile der Eingabe-JSONL-Datei
         for line in input_file:
-            # Lade die JSON-Daten aus der Zeile
-            lineJSON = json.loads(line)
-            array = []
-            for key in lineJSON:
-                array.append(lineJSON[key])
-            stringJSON = " ".join(str(item) for item in array)
+            if count <= 5:
+                # Lade die JSON-Daten aus der Zeile
+                lineJSON = json.loads(line)
+                array = []
+                for key in lineJSON:
+                    array.append(lineJSON[key])
+                stringJSON = " ".join(str(item) for item in array)
 
-            # Extrahiere nur die "doc_id" und "text" Felder
-            filtered_data = {"doc_id": lineJSON["id"], "text": stringJSON}
+                # Extrahiere nur die "doc_id" und "text" Felder
+                filtered_data = {"doc_id": lineJSON["id"], "text": stringJSON}
 
-            # Schreibe die extrahierten Daten als JSON in die Ausgabe-JSONL-Datei
-            output_file.write(json.dumps(filtered_data) + "\n")
+                # Schreibe die extrahierten Daten als JSON in die Ausgabe-JSONL-Datei
+                output_file.write(json.dumps(filtered_data) + "\n")
+                count += 1
 
 
 def setXML(file_path, file_name):
