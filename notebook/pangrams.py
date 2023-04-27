@@ -17,7 +17,7 @@ class PangramDocument(NamedTuple):
         return self.text
 
 
-ir_datasets.registry.register('testdata', Dataset(
-    JsonlDocs(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir-anthology-final.jsonl')]), doc_cls=PangramDocument, lang='en'),
-    TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'pangram-topics.xml')]), lang='en')
+ir_datasets.registry.register('pangram', Dataset(
+    JsonlDocs(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir-anthology-final.jsonl')], expected_md5='6fd25525cb321f6517c934f8ff8c96fb'), doc_cls=PangramDocument, lang='en'),
+    TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'topics.xml')], expected_md5='0916773cf11a1e3d7580268086f52cf4'), lang='en')
 ))
