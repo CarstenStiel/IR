@@ -5,7 +5,6 @@ from ir_datasets.util.download import RequestsDownload
 from ir_datasets.datasets.base import Dataset
 
 DATASET_URL = 'https://raw.githubusercontent.com/CarstenStiel/IR/main/notebook/CreatedData'
-DATASET_URL = 'https://raw.githubusercontent.com/tira-io/ir-experiment-platform/main/ir-datasets/tutorial/'
 
 class PangramDocument(NamedTuple):
     doc_id: str
