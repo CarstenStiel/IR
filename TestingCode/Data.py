@@ -30,11 +30,11 @@ def countEntriesJSONL(input_File):
 def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
     count = 0
 
-    if checkForFile(outputFilePath,outputFileName) == False:
+    if not checkForFile(outputFilePath,outputFileName):
         with open(outputFilePath, 'w') as f:
             try:
-                f.write(json.dumps(""))
-                print(f"Die Datei {outputFileName} wurde in Folgendem Pfad erstellt: {outputFilePath}")
+                f.write("")
+                print(f"Die Datei {outputFileName} wurde in folgendem Pfad erstellt: {outputFilePath}")
             except Exception as e:
                 print(f"Fehler beim Erstellen der Datei {outputFileName}: {e}")
 
@@ -42,7 +42,7 @@ def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
     with open(inputFile, "r") as input_file, open(outputFilePath, "w") as output_file:
         # Iteriere über jede Zeile der Eingabe-JSONL-Datei
         for line in input_file:
-            if count <= 5:
+            if count < 5:
                 # Lade die JSON-Daten aus der Zeile
                 lineJSON = json.loads(line)
                 array = []
@@ -51,7 +51,7 @@ def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
                 stringJSON = " ".join(str(item) for item in array)
 
                 # Extrahiere nur die "doc_id" und "text" Felder
-                filtered_data = {"doc_id": lineJSON["id"], "text": stringJSON}
+                filtered_data = {"doc_id": lineJSON["id"]}
 
                 # Schreibe die extrahierten Daten als JSON in die Ausgabe-JSONL-Datei
                 output_file.write(json.dumps(filtered_data) + "\n")
