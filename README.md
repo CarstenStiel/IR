@@ -59,5 +59,5 @@ The following commands are used for Windows Powershell
 2. ***Tira:***
     - Tira run
     ```
-    tira-run --output-directory ${PWD}/pangram-dataset-tira --image pangram-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id pangrams --output_dataset_path $outputDir'
+    tira-run --output-directory ${PWD}/pangram-dataset-tira --image pangram-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-DNC_Limited --output_dataset_path $outputDir'
     ```
