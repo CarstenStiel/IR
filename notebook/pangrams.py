@@ -19,5 +19,5 @@ class PangramDocument(NamedTuple):
 
 ir_datasets.registry.register('testdata', Dataset(
     JsonlDocs(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir-anthology-final.jsonl')]), doc_cls=PangramDocument, lang='en'),
-    TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'topics.xml')]), lang='en')
+    TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'pangram-topics.xml')]), lang='en')
 ))
