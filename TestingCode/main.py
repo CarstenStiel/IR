@@ -10,5 +10,7 @@ xmlFilePath = Data.getDirectory() + "CreatedData\\" + xmlFileName
 
 if __name__ == '__main__':
 
+    print(outputFilePath)
+
     Data.getEntriesToJSONL(inputFilePath, outputFilePath, outputFileName)
     print(f"Anzahl Entitäten in {outputFileName}: ", Data.countEntriesJSONL(outputFilePath), "\n")
