@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Added english version to ReadMe">
-      <change afterPath="$PROJECT_DIR$/notebook/pangram-dataset-tira/documents.jsonl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/CreatedData/ir-anthology-final.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/CreatedData/ir-anthology-final.jsonl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCode/Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCode/Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/CreatedData/topics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/CreatedData/topics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/pangram-dataset-tira/documents.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/pangram-dataset-tira/documents.jsonl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/pangrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/pangrams.py" afterDir="false" />
     </list>
     <list id="284ab039-4fc7-4066-bfba-f18c5bf31a08" name="Changes by Famil" comment="" />
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682602878338</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added english version to ReadMe">
+      <created>1682603421912</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682603421912</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

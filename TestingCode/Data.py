@@ -51,7 +51,7 @@ def getEntriesToJSONL(inputFile, outputFilePath, outputFileName):
                 stringJSON = " ".join(str(item) for item in array)
 
                 # Extrahiere nur die "doc_id" und "text" Felder
-                filtered_data = {"doc_id": lineJSON["id"], "text": stringJSON, "letters": "3"}
+                filtered_data = {"doc_id": lineJSON["id"], "text": stringJSON}
 
                 # Schreibe die extrahierten Daten als JSON in die Ausgabe-JSONL-Datei
                 output_file.write(json.dumps(filtered_data) + "\n")
