@@ -53,16 +53,19 @@ The following commands are used for Windows Powershell
 1. ***Docker:***
     - docker build image
         ```
-        docker build -t pangram-ir-dataset .
+        docker build -t dnc-limited-ir-dataset .
         ```
     - delete everything
         ```
         docker system prune -a
         ```
-    ***IMPORTANT*** please don´t use the docker compose. This is work in progress and does not function as wanted!
+    - docker compose
+        ```
+        docker compose up
+        ```
 
 2. ***Tira:***
     - Tira run
     ```
-    tira-run --output-directory ${PWD}/pangram-dataset-tira --image pangram-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-DNC_Limited --output_dataset_path $outputDir'
+    tira-run --output-directory ${PWD}/dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-DNC_Limited --output_dataset_path $outputDir'
     ```
