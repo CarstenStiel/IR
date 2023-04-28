@@ -46,7 +46,7 @@ Navigate in the terminal to the [notebook](notebook/) directory of the project a
 ```
 jupyter notebook
 ```
-Select the [DNC_Limited_Data.ipynb](notebook/DNC_Limited_Data.ipynb) file in the Jupyter Notebook interface to start the notebook.
+Select the [DNC_Limited_Data.ipynb](notebook/DNC_Limited_Notebook.ipynb) file in the Jupyter Notebook interface to start the notebook.
 
 ## Commands good to know
 The following commands are used for Windows Powershell
