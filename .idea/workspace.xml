@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated readme and refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/data/topics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/data/topics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/iranthology-DNC_Limited.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/iranthology-DNC_Limited.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/pangram-dataset-tira/documents.jsonl" beforeDir="false" />
-    </list>
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated topics.xml" />
     <list id="284ab039-4fc7-4066-bfba-f18c5bf31a08" name="Changes by Famil" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682618772925</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016">
+      <created>1682619088750</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682619088750</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +269,7 @@
     <MESSAGE value="Added register pangram.py" />
     <MESSAGE value="Updated read.me and deleted Files" />
     <MESSAGE value="Updated readme and refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated readme and refactoring" />
+    <MESSAGE value="Updated topics.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated topics.xml" />
   </component>
 </project>
