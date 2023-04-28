@@ -9,7 +9,6 @@ services:
     build:
       context: ./notebook
       dockerfile: Dockerfile.notebook
-    image: carstenstiel/notebook
     ports:
       - "8888:8888"
     networks:

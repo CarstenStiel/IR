@@ -59,7 +59,10 @@ The following commands are used for Windows Powershell
         ```
         docker system prune -a
         ```
-    ***IMPORTANT*** please don´t use the docker compose. This is work in progress and does not function as wanted!
+    - docker compose
+        ```
+        docker compose up
+        ```
 
 2. ***Tira:***
     - Tira run
