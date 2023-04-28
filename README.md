@@ -7,9 +7,9 @@
     - The data, that we need are located inside the folder [data](notebook/data)
 2. ***notebook/data:***
    - The following files are located here:
-     * [ir-anthology-final](notebook/data/ir-anthology-final.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
+     * [ir-anthology-final](notebook/data/ir-anthology-07-11-2021-ss23.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
      * [topics](notebook/data/topics.xml): Topics in the XML format for Tira.
-     * [ir-anthology-07-11-2021-ss23](notebook/data/ir-anthology-07-11-2021-ss23): File that is given to extract the needed information.
+     * [ir-anthology-07-11-2021-ss23](notebook/data/ir-anthology-07-11-2021-ss23.jsonl): File that is given to extract the needed information.
 3. ***testingCode:***
    - The code used for testing in the respective IDE before being used in the Jupyter Notebook is located here.
 
@@ -20,10 +20,15 @@ The following should be installed for the first start of the project:
 ***Important:*** Here are the requirements with installation instructions for Windows. Note that the terminal should be run as <ins>administrator</ins>!
 1. ***Python:***
    - Download "Python" from the following website and follow the instructions: https://www.python.org/downloads/
-3. ***Pipenv:***
+2. ***Pipenv:***
    - Run the following command in the terminal:
      ```
      pip install pipenv
+     ```
+3. ***Tira:***:
+   - Run the following command in the terminal:
+     ```
+     pip3 install tira
      ```
 3. ***Jupyter:***
    - Run the following command in the terminal:
