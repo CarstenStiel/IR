@@ -51,21 +51,21 @@ Select the [DNC_Limited_Data.ipynb](notebook/DNC_Limited_Data.ipynb) file in the
 ## Commands good to know
 The following commands are used for Windows Powershell
 1. ***Docker:***
-    - docker build image
+    - docker build image with [iranthology-DNC_Limited.py](notebook/iranthology-DNC_Limited.py) (use this command inside the [notebook](notebook/)):
         ```
         docker build -t dnc-limited-ir-dataset -f Dockerfile.iranthology .
         ```
-    - delete everything
+    - delete everything (images and containers):
         ```
         docker system prune -a
         ```
-    - docker compose
+    - docker compose:
         ```
         docker compose up
         ```
 
 2. ***Tira:***
-    - Tira run
+    - Tira run (use this command inside the [notebook](notebook/)):
     ```
     tira-run --output-directory ${PWD}/dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-DNC_Limited --output_dataset_path $outputDir'
     ```

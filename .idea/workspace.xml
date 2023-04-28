@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated docker-compose.yml and README.md.">
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated README.md and deleted unused lines from notebook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/DNC_Limited_Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/DNC_Limited_Notebook.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,8 @@
       <workItem from="1682690662449" duration="596000" />
       <workItem from="1682691272602" duration="2768000" />
       <workItem from="1682699805290" duration="156000" />
-      <workItem from="1682699986352" duration="189000" />
+      <workItem from="1682699986352" duration="240000" />
+      <workItem from="1682700601534" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -277,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682694460920</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated README.md and deleted unused lines from notebook">
+      <created>1682700226926</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682700226926</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +314,7 @@
     <MESSAGE value="Updated readme and refactoring" />
     <MESSAGE value="Updated topics.xml" />
     <MESSAGE value="Updated docker-compose.yml and README.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated docker-compose.yml and README.md." />
+    <MESSAGE value="Updated README.md and deleted unused lines from notebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md and deleted unused lines from notebook" />
   </component>
 </project>
