@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated topics.xml">
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated m5 hash">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/iranthology-DNC_Limited.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/iranthology-DNC_Limited.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="284ab039-4fc7-4066-bfba-f18c5bf31a08" name="Changes by Famil" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682341934598</updated>
       <workItem from="1682677812023" duration="1200000" />
-      <workItem from="1682680605461" duration="507000" />
+      <workItem from="1682680605461" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682619088750</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated m5 hash">
+      <created>1682681154198</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682681154198</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +295,7 @@
     <MESSAGE value="Updated read.me and deleted Files" />
     <MESSAGE value="Updated readme and refactoring" />
     <MESSAGE value="Updated topics.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated topics.xml" />
+    <MESSAGE value="Updated m5 hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated m5 hash" />
   </component>
 </project>
