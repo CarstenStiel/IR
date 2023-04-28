@@ -7,11 +7,8 @@
     <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated docker-compose.yml and README.md.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/DNC_Limited_Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/DNC_Limited_Notebook.ipynb" afterDir="false" />
     </list>
-    <list id="284ab039-4fc7-4066-bfba-f18c5bf31a08" name="Changes by Famil" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,6 +155,8 @@
       <workItem from="1682689184793" duration="1414000" />
       <workItem from="1682690662449" duration="596000" />
       <workItem from="1682691272602" duration="2768000" />
+      <workItem from="1682699805290" duration="156000" />
+      <workItem from="1682699986352" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>

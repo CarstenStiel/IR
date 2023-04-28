@@ -53,7 +53,7 @@ The following commands are used for Windows Powershell
 1. ***Docker:***
     - docker build image
         ```
-        docker build -t dnc-limited-ir-dataset .
+        docker build -t dnc-limited-ir-dataset -f Dockerfile.iranthology .
         ```
     - delete everything
         ```
