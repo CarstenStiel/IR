@@ -3,12 +3,12 @@
 ## Project Structure
 
 1. ***notebook:***
-    - The Jupyter Notebook is located here, named [DNC_Limited_Data.ipynb](notebook/DNC_Limited_Data.ipynb)
+    - The Jupyter Notebook is located here, named [dnc-limited-notebook.ipynb](notebook/dnc-limited-notebook.ipynb)
     - The data, that we need are located inside the folder [data](notebook/data)
 2. ***notebook/data:***
    - The following files are located here:
      * [ir-anthology-final](notebook/data/ir-anthology-07-11-2021-ss23.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
-     * [topics](notebook/data/topics.xml): Topics in the XML format for Tira.
+     * [topics](notebook/data/dnc-limited-topics.xml): Topics in the XML format for Tira.
      * [ir-anthology-07-11-2021-ss23](notebook/data/ir-anthology-07-11-2021-ss23.jsonl): File that is given to extract the needed information.
 3. ***testingCode:***
    - The code used for testing in the respective IDE before being used in the Jupyter Notebook is located here.
@@ -46,12 +46,12 @@ Navigate in the terminal to the [notebook](notebook/) directory of the project a
 ```
 jupyter notebook
 ```
-Select the [DNC_Limited_Data.ipynb](notebook/DNC_Limited_Notebook.ipynb) file in the Jupyter Notebook interface to start the notebook.
+Select the [dnc-limited-notebook.ipynb](notebook/dnc-limited-notebook.ipynb) file in the Jupyter Notebook interface to start the notebook.
 
 ## Commands good to know
 The following commands are used for Windows Powershell
 1. ***Docker:***
-    - docker build image with [iranthology-DNC_Limited.py](notebook/iranthology-DNC_Limited.py) (use this command inside the [notebook](notebook/)):
+    - docker build image with [iranthology-dnc-limited.py](notebook/iranthology-dnc-limited.py) (use this command inside the [notebook](notebook/)):
         ```
         docker build -t dnc-limited-ir-dataset -f Dockerfile.iranthology .
         ```
@@ -67,5 +67,5 @@ The following commands are used for Windows Powershell
 2. ***Tira:***
     - Tira run (use this command inside the [notebook](notebook/)):
     ```
-    tira-run --output-directory ${PWD}/dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-DNC_Limited --output_dataset_path $outputDir'
+    tira-run --output-directory ${PWD}/dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir'
     ```
