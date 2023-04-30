@@ -1,6 +1,6 @@
 <topics>
   <topic number="1">
-    <title>machine learnign for more relevant results</title>
+    <title>machine learning for more relevant results</title>
     <description>Which papers describe methods to find more relevant results using machine learning?</description>
     <narrative>Relevant papers describe one or more methods to find more relevant results using machine learning. Papers about just machine learning in IR in general or papers just about finding more relevant results are not relevant.</narrative>
   </topic>
@@ -10,8 +10,18 @@
     <narrative>Papers in this topic describe methods and algorithms to use machine learning for crawling. They also contain information on the latest research findings on the topic. Papers about crawling methods without AI are not relevant for this topic.</narrative>
   </topic>
   <topic number="3">
-	<title>Recommenders influence on users</title>
-	<description>Papers that describe the change in user behaviour by recommenders?</description>
-	<narrative>Relevant papers describe how users are affected by recommenders, papers about the recommenders from a technological point of view are not relevant</narrative>
+	  <title>Recommenders influence on users</title>
+	  <description>Papers that describe the change in user behaviour because of recommenders?</description>
+	  <narrative>Relevant papers describe how users are affected by recommenders, papers about the recommenders from a technological point of view are not relevant</narrative>
+  </topic>
+  <topic number="4">
+    <title>Search engine caching effects</title>
+    <description>Papers that describe the effects and/or efficient use of search engine caching in terms of result freshness, query latency and other potential advantages or disadvantages </description>
+    <narrative>Papers in this topic will describe the design trade-off between low latency querying and returning the most recently available results as well as different architectures to create efficient caching systems. Results should not contain any other caching related topics (e.g. hardware or web browsers)</narrative>
+  </topic>
+  <topic number="5">
+    <title>Consumer Product reviews</title>
+    <description>Papers that describe the effects of product reviews on consumer decisions</description>
+    <narrative>Relevant papers would describe the influence that reviews have on on individual decisions of the consumer on whether to buy a product or not. Not relevant papers, would contain other studies about reviews, that are not pertaining to human psychology</narrative>
   </topic>
 </topics>

@@ -16,6 +16,6 @@ class DNCDocument(NamedTuple):
 
 
 ir_datasets.registry.register('iranthology-dnc-limited', Dataset(
-    JsonlDocs(ir_datasets.util.PackageDataFile(path='datasets_in_progress/dnc-limited-documents.jsonl'), doc_cls=DNCDocument, lang='en'),
-    TrecXmlQueries(ir_datasets.util.PackageDataFile(path='datasets_in_progress/dnc-limited-topics.xml'), lang='en')
+    JsonlDocs(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir-anthology-final.jsonl')], expected_md5='c434caa3b4a2a37d6685c3b6c2c4b012'), doc_cls=DNCDocument, lang='en'),
+    TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'topics.xml')], expected_md5='86a5eaade1b550cff81078311e475e24'), lang='en')
 ))
