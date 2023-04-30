@@ -1,10 +1,7 @@
 import ir_datasets
 from ir_datasets.formats import JsonlDocs, TrecXmlQueries, TrecQrels
-from typing import NamedTuple, Dict
-from ir_datasets.util.download import RequestsDownload
+from typing import NamedTuple
 from ir_datasets.datasets.base import Dataset
-
-DATASET_URL = 'https://raw.githubusercontent.com/CarstenStiel/IR/main/notebook/data/'
 
 
 class DNCDocument(NamedTuple):
@@ -16,6 +13,6 @@ class DNCDocument(NamedTuple):
 
 
 ir_datasets.registry.register('iranthology-dnc-limited', Dataset(
-    JsonlDocs(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'ir-anthology-final.jsonl')], expected_md5='c434caa3b4a2a37d6685c3b6c2c4b012'), doc_cls=DNCDocument, lang='en'),
-    TrecXmlQueries(ir_datasets.util.Download([RequestsDownload(DATASET_URL + 'topics.xml')], expected_md5='86a5eaade1b550cff81078311e475e24'), lang='en')
+    JsonlDocs(ir_datasets.util.PackageDataFile(path='datasets_in_progress/dnc-limited-documents.jsonl'), doc_cls=DNCDocument, lang='en'),
+    TrecXmlQueries(ir_datasets.util.PackageDataFile(path='datasets_in_progress/dnc-limited-topics.xml'), lang='en')
 ))
