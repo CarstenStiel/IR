@@ -60,10 +60,10 @@ The following commands are used for Windows Powershell
         docker system prune -a
         ```
     - docker compose (use this command in the outer directory):
-        ***Please keep in mind, that the "tira-run" command is not working while the notebook is inside a docker container!!!***
-        ```
-        docker compose up
-        ```
+        * ***Please keep in mind, that the "tira-run" command is not working while the notebook is inside a docker container!!!***
+            ```
+            docker compose up
+            ```
 
 2. ***Tira:***
     - Tira run (use this command inside the [notebook](notebook/)):
