@@ -22,6 +22,11 @@
   <topic number="5">
     <title>Consumer Product reviews</title>
     <description>Papers that describe the effects of product reviews on consumer decisions</description>
-    <narrative>Relevant papers would describe the influence that reviews have on on individual decisions of the consumer on whether to buy a product or not. Not relevant papers, would contain other studies about reviews, that are not pertaining to human psychology</narrative>
+    <narrative>Relevant papers would describe the influence that reviews have on individual decisions of the consumer on whether to buy a product or not. Not relevant papers, would contain other studies about reviews, that are not pertaining to human psychology</narrative>
+  </topic>
+  <topic number="6">
+    <title>Limitations machine learning</title>
+    <description>Which papers describe the limitations of machine learning?</description>
+    <narrative>Relevant papers describe the limitations of machine learning ( e.g. dependence on data quality and quantity, limited ability to handle complex tasks, vulnerability to disturbances and attacks, need for resources and energy). Papers that contains machine learning but not its limitations are not relevant.</narrative>
   </topic>
 </topics>
