@@ -55,6 +55,14 @@ The following commands are used for Windows Powershell
         ```
         docker build -t dnc-limited-ir-dataset -f Dockerfile.iranthology .
         ```
+    - docker build image containing our notebook [dnc-limited-notebook.ipynb](dnc-limited-notebook.ipynb):
+        ```
+        docker build -t dnc-limited-notebook -f Dockerfile.notebook .
+        ```
+    - docker running the notebook image [dnc-limited-notebook.ipynb](dnc-limited-notebook.ipynb):
+        ```
+        docker run --rm -ti --privileged -p 8888:8888 -v $PWD/workspace/:/workspace/ -v /var/run/docker.sock:/var/run/docker.sock dnc-limited-notebook jupyter notebook --allow-root --ip 0.0.0.0
+        ```
     - delete everything (images and containers):
         ```
         docker system prune -a

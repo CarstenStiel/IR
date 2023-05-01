@@ -59,6 +59,14 @@ The following commands are used for Windows Powershell
         ```
         docker system prune -a
         ```
+    - docker build image containing our notebook [dnc-limited-notebook.ipynb](notebook/dnc-limited-notebook.ipynb)(use this command inside the notebook folder):
+      ```
+      docker build -t dnc-limited-notebook -f Dockerfile.notebook .
+      ```
+    - docker running the notebook image [dnc-limited-notebook.ipynb](notebook/dnc-limited-notebook.ipynb):
+        ```
+        docker run --rm -ti --privileged -p 8888:8888 -v $PWD/workspace/:/workspace/ -v /var/run/docker.sock:/var/run/docker.sock dnc-limited-notebook jupyter notebook --allow-root --ip 0.0.0.0
+        ```
     - docker compose (use this command in the outer directory):
         * ***Please keep in mind, that the "tira-run" command is not working while the notebook is inside a docker container!!!***
             ```

@@ -1,12 +1,9 @@
-# Baseimage
 FROM webis/tira-ir-starter-pyterrier:0.0.1-base
 
-# Set workdir
 WORKDIR /app
 
 COPY ./ ./
 
-# Updating pip and the installation of jupyter and installing docker
 RUN apt-get update && apt-get install -y python3-pip \
     && pip3 install jupyter pyterrier \
     && apt-get install -y docker.io \
@@ -15,5 +12,4 @@ RUN apt-get update && apt-get install -y python3-pip \
 
 EXPOSE 8888
 
-# start jupyter notebook
 CMD ["jupyter", "notebook", "--allow-root", "--ip", "0.0.0.0"]
