@@ -1,17 +1,19 @@
-# Basisimage
+# Baseimage
 FROM webis/tira-ir-starter-pyterrier:0.0.1-base
 
-# Setzen der Arbeitsverzeichnis
+# Set workdir
 WORKDIR /app
 
 COPY ./ ./
 
-# Aktualisieren von pip und Installation von Jupyter Notebook
+# Updating pip and the installation of jupyter and installing docker
 RUN apt-get update && apt-get install -y python3-pip \
     && pip3 install jupyter pyterrier \
-    && pip3 install tira
+    && apt-get install -y docker.io \
+    && pip3 install tira \
+    && pip install --upgrade tira
 
 EXPOSE 8888
 
-# Starten von Jupyter Notebook
+# start jupyter notebook
 CMD ["jupyter", "notebook", "--allow-root", "--ip", "0.0.0.0"]
