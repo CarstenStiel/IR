@@ -7,8 +7,8 @@
     - The data, that we need are located inside the folder [data](notebook/data)
 2. ***notebook/data:***
    - The following files are located here:
-     * [ir-anthology-final](notebook/data/ir-anthology-07-11-2021-ss23.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
-     * [topics](notebook/data/dnc-limited-topics.xml): Topics in the XML format for Tira.
+     * [dnc-limited-documents.jsonl](notebook/data/dnc-limited-documents.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
+     * [dnc-limited-topics.xml](notebook/data/dnc-limited-topics.xml): Topics in the XML format for Tira.
      * [ir-anthology-07-11-2021-ss23](notebook/data/ir-anthology-07-11-2021-ss23.jsonl): File that is given to extract the needed information.
 3. ***testingCode:***
    - The code used for testing in the respective IDE before being used in the Jupyter Notebook is located here.
@@ -59,13 +59,18 @@ The following commands are used for Windows Powershell
         ```
         docker system prune -a
         ```
-    - docker compose:
+    - docker compose (use this command in the outer directory):
         ```
         docker compose up
         ```
 
 2. ***Tira:***
     - Tira run (use this command inside the [notebook](notebook/)):
-    ```
-    tira-run --output-directory ${PWD}/dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir'
-    ```
+        * This command is for Linux/Powershell:
+           ```
+           tira-run --output-directory ${PWD}/dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir'
+           ```
+        * This command is for Windows:
+           ```
+           !tira-run --output-directory %cd%\dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command "/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir"
+           ```
