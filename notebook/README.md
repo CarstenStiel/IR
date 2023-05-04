@@ -51,30 +51,7 @@ Select the [dnc-limited-notebook.ipynb](dnc-limited-notebook.ipynb) file in the 
 ## Commands good to know
 The following commands are used for Windows Powershell
 1. ***Docker:***
-    - docker build image with [iranthology-dnc-limited.py](iranthology-dnc-limited.py):
-        ```
-        docker build -t dnc-limited-ir-dataset -f Dockerfile.iranthology .
-        ```
-    - docker build image containing our notebook [dnc-limited-notebook.ipynb](dnc-limited-notebook.ipynb):
-        ```
-        docker build -t dnc-limited-notebook -f Dockerfile.notebook .
-        ```
-    - docker running the notebook image [dnc-limited-notebook.ipynb](dnc-limited-notebook.ipynb):
-        ```
-        docker run --rm -ti --privileged -p 8888:8888 -v $PWD/workspace/:/workspace/ -v /var/run/docker.sock:/var/run/docker.sock dnc-limited-notebook jupyter notebook --allow-root --ip 0.0.0.0
-        ```
     - delete everything (images and containers):
         ```
         docker system prune -a
         ```
-
-2. ***Tira:***
-    - Tira run:
-        * This command is for Linux/Powershell:
-           ```
-           tira-run --output-directory ${PWD}/dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir'
-           ```
-        * This command is for Windows:
-           ```
-           !tira-run --output-directory %cd%\dnc-limited-dataset-tira --image dnc-limited-ir-dataset --allow-network true --command "/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir"
-           ```
