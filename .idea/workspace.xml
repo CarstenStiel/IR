@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Changes formatting changes" />
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Changes formatting changes">
+      <change beforePath="$PROJECT_DIR$/notebook/dnc-limited-notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/dnc-limited-notebook.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +169,7 @@
       <workItem from="1683205930433" duration="1204000" />
       <workItem from="1683207167383" duration="1405000" />
       <workItem from="1683209356522" duration="78000" />
-      <workItem from="1683227370542" duration="2896000" />
+      <workItem from="1683227370542" duration="3191000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -344,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683230315839</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Changes formatting changes">
+      <created>1683230416600</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683230416600</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Changes formatting changes">
+      <created>1683230491420</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683230491420</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
