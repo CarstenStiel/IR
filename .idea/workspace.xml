@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Changes formatting changes" />
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Changes for milestone2 new structure">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile.milestone2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/qrels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_05_2023_13_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_05_2023_13_12__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_11_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_11_51__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_12_15__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_12_15__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_04_2023_14_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_04_2023_14_17__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2023_15_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2023_15_59__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2023_23_06__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2023_23_06__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_04_2023_14_16__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_04_2023_14_16__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.milestone1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dnc-limited-documents.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/data/dnc-limited-documents.jsonl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dnc-limited-notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dnc-limited-notebook.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,11 +103,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Desktop\IR" />
       <recent name="C:\Users\timot\Desktop\IR\notebook" />
       <recent name="C:\Users\timot\Desktop\IR\notebook\data" />
       <recent name="C:\Users\timot\Desktop\InRet\notebook\data" />
       <recent name="C:\Users\timot\Desktop\InRet\notebook" />
-      <recent name="C:\Users\timot\Desktop\InRet\notebook\CreatedData" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -358,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683230491420</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Changes for milestone2 new structure">
+      <created>1685116170922</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685116170922</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +418,7 @@
     <MESSAGE value="New dnc-limited-notebook.ipynb" />
     <MESSAGE value="Changes to get the final milestone1" />
     <MESSAGE value="Changes formatting changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes formatting changes" />
+    <MESSAGE value="Changes for milestone2 new structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes for milestone2 new structure" />
   </component>
 </project>
