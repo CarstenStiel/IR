@@ -5,7 +5,7 @@
 ## Structure
 
 1. ***[.gitignore](.gitignore):*** Dependencies, that should be ignored for git(not relevant).
-2. ***[dnc-limited-notebool-milestone2.ipynb](dnc-limited-notebool-milestone2.ipynb):*** Notebook for "milestone1" one with code documentation and reflection.
+2. ***[dnc-limited-notebool-milestone2.ipynb](dnc-limited-notebook-milestone2.ipynb):*** Notebook for "milestone1" one with code documentation and reflection.
 3. ***[Dockerfile](Dockerfile):*** Dockerfile to build the needed "milestone2" image.
 4. ***[Pipfile](Pipfile) and [Pipfile.lock](Pipfile.lock):*** Files for your jupyter notebook for execution (not relevant).
 
@@ -34,19 +34,19 @@ Please follow these steps to create the needed output:
     ```
     docker build -t milestone2 .
     ```
-    (optional) If you want, you can run this image:
+5. Run this image:
     ```
-    docker run --rm -ti -p 8888:8888 -v ${PWD}:/workspace milestone02
+    docker run -p 8888:8888 --rm -ti -v ${PWD}:/workspace --entrypoint jupyter milestone2  notebook --allow-root --ip 0.0.0.0
     ```
-5. Execute this notebook as tira would do:
+6. Execute this notebook as tira would do:
     ```
-    tira-run --input-directory ${PWD}/iranthology-dataset-tira --output-directory ${PWD}/bm25-output --image milestone2 --command '/workspace/run-pyterrier-notebook.py --input $inputDataset --output $outputDir --notebook /workspace/dnc-limited-notebool-milestone2.ipynb'
+    tira-run --input-directory ${PWD}/iranthology-dataset-tira --output-directory ${PWD}/bm25-output --image milestone2 --command '/workspace/run-pyterrier-notebook.py --input $inputDataset --output $outputDir --notebook /workspace/dnc-limited-notebook-milestone2.ipynb'
     ```
-6. Render results:
+7. Render results:
     ```
     tira-run --output-directory ${PWD}/bm25-output --image carstenstiel/milestone1 --allow-network true --command 'diffir --dataset iranthology-dnc-limited --web $outputDir/run.txt > $outputDir/run.html'
     ```
-7. Evaluate the effectiveness of the baseline on your relevance judgments:
+8. Evaluate the effectiveness of the baseline on your relevance judgments:
     ```
     tira-run --input-directory ${PWD}/bm25-output --image carstenstiel/milestone1 --allow-network true --command 'ir_measures iranthology-dnc-limited $inputDataset/run.txt nDCG@10 MRR P@10 Recall@100'
     ```
