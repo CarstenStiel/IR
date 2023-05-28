@@ -1,9 +1,0 @@
-<changelist name="Uncommitted_changes_before_Checkout_at_02_05_2023_12_15_[Changes]1" date="1683022524148" recycled="true" deleted="true">
-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_12_15_[Changes]1/shelved.patch" />
-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 02.05.2023 12:15 [Changes]" />
-  <binary>
-    <option name="BEFORE_PATH" value="notebook/Dockerfile.abgabe" />
-    <option name="AFTER_PATH" value="notebook/Dockerfile" />
-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_12_15_[Changes]1/Dockerfile" />
-  </binary>
-</changelist>

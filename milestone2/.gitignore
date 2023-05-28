@@ -2,5 +2,5 @@
 
 # dependencies
 iranthology-dataset-tira/
-index/
+bm25-output/
 .ipynb_checkpoints/
