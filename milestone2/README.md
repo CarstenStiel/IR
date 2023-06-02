@@ -21,11 +21,11 @@ Please follow these steps to create the needed output:
 
 2. Pull the image of the "milestone1" with the qrels command
     ```
-    docker pull carstenstiel/milestone1
+    docker pull registry.webis.de/code-research/tira/tira-user-ir-lab-sose-2023-dnc-limited/ir-datasets:0.0.1
     ```
 3. Execute the tira-run command for the "milestone1" to get the needed output:
     ```
-    tira-run --output-directory ${PWD}/iranthology-dataset-tira --image carstenstiel/milestone1 --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir'
+    tira-run --output-directory ${PWD}/iranthology-dataset-tira --image registry.webis.de/code-research/tira/tira-user-ir-lab-sose-2023-dnc-limited/ir-datasets:0.0.1 --allow-network true --command '/irds_cli.sh --ir_datasets_id iranthology-dnc-limited --output_dataset_path $outputDir'
     ```
    
 ### Milestone 2
@@ -44,9 +44,9 @@ Please follow these steps to create the needed output:
     ```
 7. Render results:
     ```
-    tira-run --output-directory ${PWD}/bm25-output --image carstenstiel/milestone1 --allow-network true --command 'diffir --dataset iranthology-dnc-limited --web $outputDir/run.txt > $outputDir/run.html'
+    tira-run --output-directory ${PWD}/bm25-output --image registry.webis.de/code-research/tira/tira-user-ir-lab-sose-2023-dnc-limited/ir-datasets:0.0.1 --allow-network true --command 'diffir --dataset iranthology-dnc-limited --web $outputDir/run.txt > $outputDir/run.html'
     ```
 8. Evaluate the effectiveness of the baseline on your relevance judgments:
     ```
-    tira-run --input-directory ${PWD}/bm25-output --image carstenstiel/milestone1 --allow-network true --command 'ir_measures iranthology-dnc-limited $inputDataset/run.txt nDCG@10 MRR P@10 Recall@100'
+    tira-run --input-directory ${PWD}/bm25-output --image registry.webis.de/code-research/tira/tira-user-ir-lab-sose-2023-dnc-limited/ir-datasets:0.0.1 --allow-network true --command 'ir_measures iranthology-dnc-limited $inputDataset/run.txt nDCG@10 MRR P@10 Recall@100'
     ```
