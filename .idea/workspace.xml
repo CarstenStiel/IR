@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="New structure and updated README.md">
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.direct.bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.document.fsarrayfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.inverted.bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.lexicon.fsomapfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.lexicon.fsomaphash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.lexicon.fsomapid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.meta-0.fsomapfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.meta.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.meta.zdata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/milestone2/index/data.properties" afterDir="false" />
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/milestone2/dnc-limited-notebool-milestone2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/milestone2/dnc-limited-notebool-milestone2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone1/data/qrels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/milestone1/data/qrels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.direct.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.document.fsarrayfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.inverted.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.lexicon.fsomapfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.lexicon.fsomaphash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.lexicon.fsomapid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.meta-0.fsomapfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.meta.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.meta.zdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/index/data.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\timot\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;aws&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -195,7 +196,11 @@
       <workItem from="1685300148029" duration="14000" />
       <workItem from="1685300215223" duration="12000" />
       <workItem from="1685300394936" duration="115000" />
-      <workItem from="1685306793743" duration="352000" />
+      <workItem from="1685306793743" duration="1033000" />
+      <workItem from="1685383686437" duration="603000" />
+      <workItem from="1685389391953" duration="1761000" />
+      <workItem from="1685522661915" duration="521000" />
+      <workItem from="1685716621297" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -400,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685298467356</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Updated README.md">
+      <created>1685307648952</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685307648952</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,6 +451,7 @@
     <MESSAGE value="Changes formatting changes" />
     <MESSAGE value="Changes for milestone2 new structure" />
     <MESSAGE value="New structure and updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="New structure and updated README.md" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>

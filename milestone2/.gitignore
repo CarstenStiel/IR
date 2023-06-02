@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-iranthology-dataset-tira/
-bm25-output/
 .ipynb_checkpoints/
+bm25-output/
 index/
+iranthology-dataset-tira/
