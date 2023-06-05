@@ -188,40 +188,40 @@
 5 0 2009.ecir_conference-2009.41 0
 5 0 2018.sigirconf_workshop-2018ecom.2 0
 5 0 2012.wwwjournals_journal-ir0anthology0volumeA15A3.2 0
-6 Q0 2002.sigirconf_conference-2002.15 0
-6 Q0 2021.wsdm_conference-2021.156 0
-6 Q0 2012.sigirconf_conference-2012.105 0
-6 Q0 2015.wwwconf_conference-2015.79 0
-6 Q0 2018.cikm_conference-2018.112 0
-6 Q0 2020.sigirjournals_journal-ir0anthology0volumeA54A1.14 0
-6 Q0 2018.wsdm_conference-2018.3 1
-6 Q0 2016.cikm_conference-2016.93 0
-6 Q0 2010.cikm_conference-2010.189 0
-6 Q0 2003.cikm_conference-2003.36 0
-6 Q0 2014.wwwconf_conference-2014c.288 0
-6 Q0 2021.wsdm_conference-2021.78 1
-6 Q0 2011.tist_journal-ir0anthology0volumeA2A3.0 0
-6 Q0 2007.cikm_conference-2007.3 1
-6 Q0 2019.tweb_journal-ir0anthology0volumeA13A2.1 0
-6 Q0 2011.sigirconf_conference-2011.216 0
-6 Q0 2010.tois_journal-ir0anthology0volumeA28A4.0 0
-6 Q0 2009.ipm_journal-ir0anthology0volumeA45A3.2 0
-6 Q0 2013.wwwconf_conference-2013c.237 0
-6 Q0 2018.cikm_conference-2018.277 0
-6 Q0 2000.ir_journal-ir0anthology0volumeA3A2.2 0
-6 Q0 2020.sigirconf_conference-2020.4 1
-6 Q0 2011.tist_journal-ir0anthology0volumeA2A3.7 0
-6 Q0 2014.wwwjournals_journal-ir0anthology0volumeA17A5.15 0
-6 Q0 2018.wwwconf_conference-2018c.35 0
-6 Q0 2020.wwwconf_conference-2020c.108 1
-6 Q0 2011.tois_journal-ir0anthology0volumeA29A4.1 0
-6 Q0 2020.clef_conference-2020w.191 0
-6 Q0 2017.tist_journal-ir0anthology0volumeA8A2.15 0
-6 Q0 2018.ir_journal-ir0anthology0volumeA21A1.1 0
-6 Q0 2020.cikm_conference-2020.93 0
-6 Q0 2017.wsdm_conference-2017.57 1
-6 Q0 2020.wsdm_conference-2020.26 0
-6 Q0 2018.sigirconf_conference-2018.238 0
-6 Q0 2019.tist_journal-ir0anthology0volumeA10A2.1 0
-6 Q0 2011.tist_journal-ir0anthology0volumeA2A3.3 0
-6 Q0 2021.ipm_journal-ir0anthology0volumeA58A4.9 0
+6 2002.sigirconf_conference-2002.15 0
+6 2021.wsdm_conference-2021.156 0
+6 2012.sigirconf_conference-2012.105 0
+6 2015.wwwconf_conference-2015.79 0
+6 2018.cikm_conference-2018.112 0
+6 2020.sigirjournals_journal-ir0anthology0volumeA54A1.14 0
+6 2018.wsdm_conference-2018.3 1
+6 2016.cikm_conference-2016.93 0
+6 2010.cikm_conference-2010.189 0
+6 2003.cikm_conference-2003.36 0
+6 2014.wwwconf_conference-2014c.288 0
+6 2021.wsdm_conference-2021.78 1
+6 2011.tist_journal-ir0anthology0volumeA2A3.0 0
+6 2007.cikm_conference-2007.3 1
+6 2019.tweb_journal-ir0anthology0volumeA13A2.1 0
+6 2011.sigirconf_conference-2011.216 0
+6 2010.tois_journal-ir0anthology0volumeA28A4.0 0
+6 2009.ipm_journal-ir0anthology0volumeA45A3.2 0
+6 2013.wwwconf_conference-2013c.237 0
+6 2018.cikm_conference-2018.277 0
+6 2000.ir_journal-ir0anthology0volumeA3A2.2 0
+6 2020.sigirconf_conference-2020.4 1
+6 2011.tist_journal-ir0anthology0volumeA2A3.7 0
+6 2014.wwwjournals_journal-ir0anthology0volumeA17A5.15 0
+6 2018.wwwconf_conference-2018c.35 0
+6 2020.wwwconf_conference-2020c.108 1
+6 2011.tois_journal-ir0anthology0volumeA29A4.1 0
+6 2020.clef_conference-2020w.191 0
+6 2017.tist_journal-ir0anthology0volumeA8A2.15 0
+6 2018.ir_journal-ir0anthology0volumeA21A1.1 0
+6 2020.cikm_conference-2020.93 0
+6 2017.wsdm_conference-2017.57 1
+6 2020.wsdm_conference-2020.26 0
+6 2018.sigirconf_conference-2018.238 0
+6 2019.tist_journal-ir0anthology0volumeA10A2.1 0
+6 2011.tist_journal-ir0anthology0volumeA2A3.3 0
+6 2021.ipm_journal-ir0anthology0volumeA58A4.9 0
