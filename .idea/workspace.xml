@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated notebook and qrels.txt">
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated qrels.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/milestone1/data/qrels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/milestone1/data/qrels.txt" afterDir="false" />
     </list>
@@ -192,7 +192,7 @@
       <workItem from="1685956362515" duration="7248000" />
       <workItem from="1685966188597" duration="1719000" />
       <workItem from="1685974527869" duration="2636000" />
-      <workItem from="1685979446054" duration="19000" />
+      <workItem from="1685979446054" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -425,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685977898898</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Updated qrels.txt">
+      <created>1685979633004</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1685979633005</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,6 +474,7 @@
     <MESSAGE value="Updated qrels.txt and updated notebook &quot;milestone2&quot; (replaced carsten docker)" />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Updated notebook and qrels.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated notebook and qrels.txt" />
+    <MESSAGE value="Updated qrels.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated qrels.txt" />
   </component>
 </project>
