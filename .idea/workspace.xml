@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated qrels.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/milestone1/data/qrels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/milestone1/data/qrels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +192,7 @@
       <workItem from="1685956362515" duration="7248000" />
       <workItem from="1685966188597" duration="1719000" />
       <workItem from="1685974527869" duration="2636000" />
-      <workItem from="1685979446054" duration="494000" />
+      <workItem from="1685979446054" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -432,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685979633005</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Updated qrels.txt">
+      <created>1685979959395</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1685979959395</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
