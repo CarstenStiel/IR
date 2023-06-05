@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Changes formatting changes" />
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated qrels.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,24 +77,28 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/timot/Desktop/InRet&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/timot/Desktop/milestone2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\timot\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;aws&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Desktop\IR" />
+      <recent name="C:\Users\timot\Desktop\IR\milestone2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Desktop\IR\milestone2" />
+      <recent name="C:\Users\timot\Desktop\IR\milestone1" />
+      <recent name="C:\Users\timot\Desktop\IR" />
       <recent name="C:\Users\timot\Desktop\IR\notebook" />
       <recent name="C:\Users\timot\Desktop\IR\notebook\data" />
-      <recent name="C:\Users\timot\Desktop\InRet\notebook\data" />
-      <recent name="C:\Users\timot\Desktop\InRet\notebook" />
-      <recent name="C:\Users\timot\Desktop\InRet\notebook\CreatedData" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -135,7 +142,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +174,25 @@
       <workItem from="1683207167383" duration="1405000" />
       <workItem from="1683209356522" duration="78000" />
       <workItem from="1683227370542" duration="3191000" />
+      <workItem from="1685277890185" duration="2302000" />
+      <workItem from="1685285847603" duration="1559000" />
+      <workItem from="1685290753671" duration="195000" />
+      <workItem from="1685291053861" duration="1147000" />
+      <workItem from="1685293678473" duration="4741000" />
+      <workItem from="1685299174446" duration="75000" />
+      <workItem from="1685299884938" duration="91000" />
+      <workItem from="1685300148029" duration="14000" />
+      <workItem from="1685300215223" duration="12000" />
+      <workItem from="1685300394936" duration="115000" />
+      <workItem from="1685306793743" duration="1033000" />
+      <workItem from="1685383686437" duration="603000" />
+      <workItem from="1685389391953" duration="1761000" />
+      <workItem from="1685522661915" duration="521000" />
+      <workItem from="1685716621297" duration="2036000" />
+      <workItem from="1685956362515" duration="7248000" />
+      <workItem from="1685966188597" duration="1719000" />
+      <workItem from="1685974527869" duration="2636000" />
+      <workItem from="1685979446054" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -358,7 +383,63 @@
       <option name="project" value="LOCAL" />
       <updated>1683230491420</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Changes for milestone2 new structure">
+      <created>1685116170922</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685116170922</updated>
+    </task>
+    <task id="LOCAL-00029" summary="New structure and updated README.md">
+      <created>1685298467356</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685298467356</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated README.md">
+      <created>1685307648952</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685307648952</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated qrels.txt and updated notebook &quot;milestone2&quot; (replaced carsten docker)">
+      <created>1685718559735</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685718559735</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated README.md">
+      <created>1685718677499</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1685718677499</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated notebook and qrels.txt">
+      <created>1685977898898</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1685977898898</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated qrels.txt">
+      <created>1685979633004</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1685979633005</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated qrels.txt">
+      <created>1685979959395</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1685979959395</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +476,12 @@
     <MESSAGE value="New dnc-limited-notebook.ipynb" />
     <MESSAGE value="Changes to get the final milestone1" />
     <MESSAGE value="Changes formatting changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes formatting changes" />
+    <MESSAGE value="Changes for milestone2 new structure" />
+    <MESSAGE value="New structure and updated README.md" />
+    <MESSAGE value="Updated qrels.txt and updated notebook &quot;milestone2&quot; (replaced carsten docker)" />
+    <MESSAGE value="Updated README.md" />
+    <MESSAGE value="Updated notebook and qrels.txt" />
+    <MESSAGE value="Updated qrels.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated qrels.txt" />
   </component>
 </project>

@@ -1,15 +1,11 @@
 # DNC_Limited
 
-## Project Structure
+***The entire repository can be found at: [https://github.com/CarstenStiel/IR](https://github.com/CarstenStiel/IR)***
 
-1. ***notebook:***
-    - The Jupyter Notebook is located here, named [dnc-limited-notebook.ipynb](notebook/dnc-limited-notebook.ipynb)
-    - The data, that we need are located inside the folder [data](notebook/data)
-2. ***notebook/data:***
-   - The following files are located here:
-     * [dnc-limited-documents.jsonl](notebook/data/dnc-limited-documents.jsonl): Created document collection in the JSONL format, with "doc_id" and "text" fields.
-     * [dnc-limited-topics.xml](notebook/data/dnc-limited-topics.xml): Topics in the XML format for Tira.
-     * [ir-anthology-07-11-2021-ss23](notebook/data/ir-anthology-07-11-2021-ss23.jsonl): File that is given to extract the needed information.
+## Project structure
+
+1. ***[milestone1](milestone1):*** Files and guide (README.md) for the first milestone.
+2. ***[milestone2](milestone2):*** Files and guide (README.md) for the second milestone.
 
 ## Installations
 
@@ -37,14 +33,7 @@ The following should be installed for the first start of the project:
    - Download "Docker Desktop" from the following website and follow the instructions: https://docs.docker.com/get-docker/
    - ***Note:*** Read everything carefully for a smooth installation (WSL2, etc.)!
 5. ***Python IDE:***
-   - <ins>Personal</ins> recommendation here is PyCharm at: https://www.jetbrains.com/pycharm/download/#section=windows 
-
-## Starting the Jupyter Notebook
-Navigate in the terminal to the [notebook](notebook/) directory of the project and enter the following command:
-```
-jupyter notebook
-```
-Select the [dnc-limited-notebook.ipynb](notebook/dnc-limited-notebook.ipynb) file in the Jupyter Notebook interface to start the notebook.
+   - <ins>Personal</ins> recommendation here is PyCharm at: https://www.jetbrains.com/pycharm/download/#section=windows
 
 ## Commands good to know
 The following commands are used for Windows Powershell
@@ -53,8 +42,3 @@ The following commands are used for Windows Powershell
         ```
         docker system prune -a
         ```
-    - docker compose (use this command in the outer directory):
-        * ***Please keep in mind, that the "tira-run" command is not working while the notebook is inside a docker container!!!***
-            ```
-            docker compose up
-            ```
