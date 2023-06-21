@@ -3,7 +3,7 @@
 # dependencies
 .ipynb_checkpoints/
 bm25-output/
-bm25-rm3-output/
-bm25-sdm-output/
 index/
 iranthology-dataset-tira/
+bm25-sdm-output/
+bm25-rm3-output/
