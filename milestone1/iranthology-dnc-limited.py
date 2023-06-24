@@ -7,6 +7,8 @@ from ir_datasets.datasets.base import Dataset
 class DNCDocument(NamedTuple):
     doc_id: str
     text: str
+    title: str
+    abstract: str
 
     def default_text(self):
         return self.text
