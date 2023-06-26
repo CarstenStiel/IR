@@ -5,5 +5,7 @@
 bm25-output/
 bm25-sdm-output/
 bm25-rm3-output/
+dnc-limited-notebook-bm25-multi-field.ipynb/
 index/
 iranthology-dataset-tira/
+tira-output/

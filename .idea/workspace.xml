@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Added milestone 3 directory with the needed notebooks!">
+      <change afterPath="$PROJECT_DIR$/milestone3/dnc-limited-notebook-bm25-multi-field.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_05_2023_15_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_05_2023_15_57__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_12_15__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_12_15__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2023_19_36__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2023_19_36__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2023_19_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2023_19_46__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2023_10_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2023_10_40__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2023_18_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2023_18_53__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/milestone3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/milestone3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone3/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/milestone3/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +102,8 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/timot/Desktop/milestone2",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/timot/Desktop/IR/milestone3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,15 +116,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Desktop\IR\milestone3" />
       <recent name="C:\Users\timot\Desktop\IR" />
       <recent name="C:\Users\timot\Desktop\IR\milestone2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Desktop\IR\milestone3" />
       <recent name="C:\Users\timot\Desktop\IR\milestone2" />
       <recent name="C:\Users\timot\Desktop\IR\milestone1" />
       <recent name="C:\Users\timot\Desktop\IR" />
       <recent name="C:\Users\timot\Desktop\IR\notebook" />
-      <recent name="C:\Users\timot\Desktop\IR\notebook\data" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">

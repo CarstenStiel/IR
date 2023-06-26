@@ -1,6 +1,10 @@
 # We start from a docker image that already has all dependencies installed
 FROM webis/tira-ir-starter-pyterrier:0.0.2-base
 
+RUN pip install --upgrade git+https://github.com/terrierteam/pyterrier_t5.git && \
+    pip install ipywidgets && \
+    pip install --upgrade jupyter
+
 # We remove some non-required files from our starting image
 RUN rm /workspace/*.ipynb /workspace/default_pipelines.py /workspace/pyterrier_cli.py
 
