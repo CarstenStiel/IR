@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Updated qrels.txt">
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Final multi field notebook!">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2023_10_40_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2023_10_40__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/milestone2/dnc-limited-notebook-milestone2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone3/dnc-limited-notebook-bm25-multi-field.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/milestone3/dnc-limited-notebook-bm25-multi-field.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,8 +53,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="exp/multiset" />
+                    <option name="lastUsedInstant" value="1687794644" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="dev" />
-                    <option name="lastUsedInstant" value="1682684228" />
+                    <option name="lastUsedInstant" value="1687369560" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -75,9 +94,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;exp/multiset&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/timot/Desktop/milestone2&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/timot/Desktop/IR/milestone3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -90,15 +110,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Desktop\IR\milestone3" />
       <recent name="C:\Users\timot\Desktop\IR" />
       <recent name="C:\Users\timot\Desktop\IR\milestone2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Desktop\IR\milestone3\iranthology-dataset-tira" />
+      <recent name="C:\Users\timot\Desktop\IR\milestone3" />
       <recent name="C:\Users\timot\Desktop\IR\milestone2" />
       <recent name="C:\Users\timot\Desktop\IR\milestone1" />
       <recent name="C:\Users\timot\Desktop\IR" />
-      <recent name="C:\Users\timot\Desktop\IR\notebook" />
-      <recent name="C:\Users\timot\Desktop\IR\notebook\data" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -193,6 +214,8 @@
       <workItem from="1685966188597" duration="1719000" />
       <workItem from="1685974527869" duration="2636000" />
       <workItem from="1685979446054" duration="1140000" />
+      <workItem from="1687801357208" duration="272000" />
+      <workItem from="1687855630957" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -439,7 +462,36 @@
       <option name="project" value="LOCAL" />
       <updated>1685979959395</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added milestone 3 directory with the needed notebooks!">
+      <created>1687369181981</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1687369181981</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added milestone 3 directory with the needed notebooks!">
+      <created>1687369747903</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1687369747903</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added milestone 3 directory with the needed notebooks!">
+      <created>1687369919214</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1687369919214</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Final multi field notebook!">
+      <option name="closed" value="true" />
+      <created>1687801626997</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1687801626997</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,6 +534,8 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Updated notebook and qrels.txt" />
     <MESSAGE value="Updated qrels.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated qrels.txt" />
+    <MESSAGE value="Added milestone 3 directory with the needed notebooks!" />
+    <MESSAGE value="Final multi field notebook!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final multi field notebook!" />
   </component>
 </project>
