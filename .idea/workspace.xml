@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Added multi field notebook!">
+    <list default="true" id="7ac16ca6-4e85-4720-a19a-9b14e767f9d8" name="Changes" comment="Final multi field notebook!">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2023_10_40_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2023_10_40__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/milestone3/dnc-limited-notebook-bm25-multi-field.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/milestone3/dnc-limited-notebook-bm25-multi-field.ipynb" afterDir="false" />
     </list>
@@ -212,7 +214,8 @@
       <workItem from="1685966188597" duration="1719000" />
       <workItem from="1685974527869" duration="2636000" />
       <workItem from="1685979446054" duration="1140000" />
-      <workItem from="1687801357208" duration="223000" />
+      <workItem from="1687801357208" duration="272000" />
+      <workItem from="1687855630957" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="Added english version to ReadMe">
       <created>1682370523843</created>
@@ -480,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687369919214</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Final multi field notebook!">
+      <option name="closed" value="true" />
+      <created>1687801626997</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1687801626997</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,6 +535,7 @@
     <MESSAGE value="Updated notebook and qrels.txt" />
     <MESSAGE value="Updated qrels.txt" />
     <MESSAGE value="Added milestone 3 directory with the needed notebooks!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added milestone 3 directory with the needed notebooks!" />
+    <MESSAGE value="Final multi field notebook!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final multi field notebook!" />
   </component>
 </project>
